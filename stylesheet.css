@@ -64,7 +64,7 @@ header{
 .Profile-wrapper{
     height:560px;
     border-top: 20px solid black;
-    background-image: url(/img/nc209442.jpg);
+    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/nc209442.jpg?raw=true);
     background-size: cover;
     padding-top: 20px;
 } 
@@ -91,7 +91,7 @@ header{
     font-size: 20px;
 }
 .favorite-foods{
-    background-image: url(/img/white_00032.jpeg);
+    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/white_00032.jpeg?raw=true);
     background-size: cover;
     height:auto;
     text-align: center;
@@ -99,7 +99,7 @@ header{
 }
 .favorite-foods h1{
     font-size: 50px;
-    background-image: url(/img/wood-texture_00016.jpeg);
+    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/wood-texture_00016.jpeg?raw=true);
     background-size: cover;
 }
 
@@ -142,13 +142,13 @@ ul{
 .azuki-house h1{
     font-family: cursive;
     font-size: 40px;
-    background-image: url(/img/stone_00101.jpeg);
+    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/stone_00101.jpeg?raw=true);
     font-size: 50px;
     color: azure;
 }
 .first-home{
     padding:30px 0 20px 30px;
-    background-image: url(/img/cloth_00153.jpeg);
+    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/cloth_00153.jpeg?raw=true);
     border-bottom: 2px dotted black;
     height: 520px;
 }
@@ -179,7 +179,7 @@ ul{
 }
 
 .second-home{
-    background-image: url(/img/texture_00010.jpeg);
+    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/texture_00010.jpeg?raw=true);
     height: 510px;
     padding:30px 0 20px 30px;
     float: left;
