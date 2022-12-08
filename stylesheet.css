@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    float: none;
+	position: static;
+}
+.iphonever{
+    display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+header{
+    background-color: black;
+    height: 70px;
+    
+}
+.container{
+    width: 1440px;
+    
+}
+.header-left img{
+    width: 120px;
+    float: left;
+}
+.header-left h3{
+    color: azure;
+    padding-top: 21px;
+    float: left;
+}
+
+
+.swich-wrapper{
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
+.swich-wrapper a{
+    padding: 0 75px;
+    background-color: white;
+    line-height: 70px;
+    display: inline-block;
+    color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Arial Black";   
+}
+
+.swich-wrapper a:hover{
+    opacity: 1;
+}
+
+.az-picture{
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 38px;
+    float: left;
+
+}
+.Profile-wrapper{
+    height:560px;
+    border-top: 20px solid black;
+    background-image: url(/img/nc209442.jpg);
+    background-size: cover;
+    padding-top: 20px;
+} 
+.az-profile {
+    font-size: 20px;
+}
+
+.azuki-profile{
+    background-color:rgb(246, 239, 239);
+    width: 1000px;
+    height: 500px; 
+    border: 3px solid black;
+    margin-left: 20px;
+}
+.azuki-profile h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.azuki-profile p{
+    padding-top: 15px;
+    padding-left: 640px;
+    font-size: 20px;
+}
+.favorite-foods{
+    background-image: url(/img/white_00032.jpeg);
+    background-size: cover;
+    height:auto;
+    text-align: center;
+    font-family: cursive;
+}
+.favorite-foods h1{
+    font-size: 50px;
+    background-image: url(/img/wood-texture_00016.jpeg);
+    background-size: cover;
+}
+
+.ranking{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 180px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+ul{
+    display: flex;
+}
+
+.ranking p{
+    font-size: 20px;
+}
+
+.snackimg{
+    opacity: 0.7;
+}
+.snackimg:hover{
+    opacity: 1;
+}
+
+.ilovesnack{
+    margin-left: 100px;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.azuki-house{
+    text-align: center;
+    background-color: azure;
+    height: 600px;
+}
+.azuki-house h1{
+    font-family: cursive;
+    font-size: 40px;
+    background-image: url(/img/stone_00101.jpeg);
+    font-size: 50px;
+    color: azure;
+}
+.first-home{
+    padding:30px 0 20px 30px;
+    background-image: url(/img/cloth_00153.jpeg);
+    border-bottom: 2px dotted black;
+    height: 520px;
+}
+.house{
+    float: left;
+}
+.house img{
+    width:300px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.house-info{
+    float: left;
+}
+.house-info h2{
+    font-size: 20px;
+}
+
+.house-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.house-info p{
+    font-size: 20px;
+}
+.info-bottom{
+    padding-bottom: 20px;
+}
+
+.second-home{
+    background-image: url(/img/texture_00010.jpeg);
+    height: 510px;
+    padding:30px 0 20px 30px;
+    float: left;
+}
+
+.second-house img{
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+}
+.second-houseinfo h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.second-houseinfo p{
+    font-size: 20px;
+    float: left;
+}
+
+footer{
+    width: 1440px;
+    height: 80px;
+}
+
+.fotter-logo p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
