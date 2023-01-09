@@ -33,6 +33,7 @@ header{
     height: 70px;
     text-align: center;
     width: 1440px;
+    
 }
 .swich-wrapper a{
     padding: 0 75px;
@@ -49,17 +50,20 @@ header{
 .swich-wrapper a:hover{
     opacity: 1;
 }
-.profile-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
-    background-size: cover;
-    height: 100%;
-    width: 1440px;
-    border-top: 20px solid black;
-    border-bottom: 3px solid white;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center ;
-}
+.profile-wrapper::before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:50% 100%;
+    background-image:url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-size:cover;
+    }
 .profile{
     background-color: rgba(0, 0, 0, 0.761);
     width: 1300px;
@@ -96,16 +100,20 @@ header{
     font-size: 20px;
 }
 
-.favorite-food-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
-    background-size: cover;
-    height: 100%;
-    width: 1440px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center ;
-    border-bottom: 3px solid white;
-}
+.favorite-food-wrapper::before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:50% 100%;
+    background-image:url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-size:cover;
+    }
 .favorite-food{
     background-color: rgba(255, 255, 255, 0.761);
     width: 1300px;
@@ -129,7 +137,7 @@ header{
 .favorite-food-ranking{
     display: flex;
     align-items: flex-end;
-    justify-content: right
+    justify-content: right;
 }
 .favorite-food-ranking a{
     color: black;
@@ -148,32 +156,40 @@ header{
 .first{
     display: flex;
     align-items: flex-start;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 .second{
     display: flex;
     align-items: flex-start;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 .third{
     display: flex;
     align-items: flex-start;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 
 .snack{
     padding-bottom: 48px;
 }
-
-.house1-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
-    background-size: cover;
-    height: 100%;
-    width: 1440px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center ;
+.snack2{
+    display: none;
 }
+
+.house1-wrapper::before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:50% 100%;
+    background-image:url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-size:cover;
+    }
 
 .house1{
     background-color: rgba(0, 0, 0, 0.761);
@@ -226,15 +242,20 @@ header{
     text-align: center;
     
 }
-.house2-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
-    background-size: cover;
-    height: 100%;
-    width: 1440px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center ;
-}
+.house2-wrapper::before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:50% 100%;
+    background-image:url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-size:cover;
+    }
 
 .house2{
     background-color: rgba(0, 0, 0, 0.761);
@@ -280,7 +301,6 @@ header{
 .iphone-swich{
     display: none;
 }
-
 
 footer{
     width: 1440px;
