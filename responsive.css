@@ -1,0 +1,180 @@
+@media screen and (max-width:480px) {
+    .container{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .header-left img{
+        margin-left: 10px;
+    }
+
+    .header-left h3{
+        font-size: 18px;
+        border-bottom: 1px solid white;
+    }
+    .iphone-top{
+     display: block;
+     background-image: url(/img/profile_top.jpg);
+     background-size: cover;
+     width: 100%;
+     height: 220px;
+    }
+
+    .swich-wrapper{
+        display: none;
+    }
+
+
+    .profile-wrapper{
+        border-top: none;
+        display: block;
+        width: 100%;
+    }
+    .profile{
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+    .profile h1{
+        display: none;
+    }
+    .profiles{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .profiles img{
+        width: 250px;
+        margin:20px 0;
+    }
+    .profile-text{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .profile-text p{
+        padding-bottom: 3px;
+    }
+
+
+
+    .favorite-food-wrapper{
+        width: 100%;
+    }
+
+    .favorite-food{
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+    .favorite-food h1{
+        font-size: 40px;
+        border-bottom: 2px dotted rgb(0, 0, 0);
+    }
+
+    .favorite-food-ranking{
+        display: block;
+    }
+
+    .favorite-food-ranking a{
+        opacity: 1;
+    }
+    .first{
+        padding-top: 30px;
+    }
+    .second{
+        padding-left: 35px;
+        padding-top: 70px;
+    }
+    
+    .third{
+        padding-left:60px;
+        padding-top: 70px;
+    }
+    .snack{
+        text-align: right;
+    }
+    .snack img{
+        width:300px;
+    }
+
+
+
+
+
+    .house1-wrapper{
+        width: 100%;
+    }
+    .house1{
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        border-bottom: 3px dotted white;
+    }
+    .house1 h1{
+        width: 100%;
+        padding:40px 0;
+        border-bottom: 1px dotted white;
+        margin-bottom: 20px;
+    }
+    .house1-text{
+        display: block;
+        text-align: center;
+    }
+    .iphone-only{
+        display: block;
+        color: white;
+        font-size: 40px;
+        padding-top: 10px;
+        font-family: "azuki_font";
+    }
+    .pc-only{
+        display: none;
+    }
+    .house1-text img{
+        margin-left: 0;
+        margin-top:20px;
+    }
+
+    .house1-text2{
+        padding-left: 0;
+    }
+
+    .house1-text3 p{
+        text-align: center;
+        padding: 20px 10px;
+    }
+    br{
+        display: block;
+        content:"";
+        height: 20px;
+    }
+
+    .house2-wrapper{
+        width: 100%;
+    }
+    .house2{
+        border-left:none;
+        border-right: none;
+        width: 100%;
+    }
+    .house2-text1{
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .house2-text1 img{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .house2-text2{
+        padding-left:0;
+    }
+    .house2-text3 p{
+        text-align: center;
+        padding: 20px 10px;
+    }
+    footer{
+        width: 100%;
+    }
+}
