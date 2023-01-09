@@ -2,6 +2,7 @@
     .container{
         width: 100%;
     }
+    
     header{
         width: 100%;
     }
@@ -30,6 +31,7 @@
         border-top: none;
         display: block;
         width: 100%;
+        border-top: 3px solid white;
     }
     .profile{
         width: 100%;
@@ -40,20 +42,26 @@
         display: none;
     }
     .profiles{
-        display: block;
         width: 100%;
         text-align: center;
+        padding-bottom: 0;
     }
     .profiles img{
-        width: 250px;
+        width: 180px;
         margin:20px 0;
+        border: 0;
+        margin-left: 20px;
     }
     .profile-text{
         text-align: left;
-        margin-left: 10px;
+        padding-left: 0;
+        width: 210px;
+        padding-top: 35px;
     }
     .profile-text p{
         padding-bottom: 3px;
+        font-size: 10px;
+        padding-left: 10px;
     }
 
 
@@ -70,34 +78,67 @@
     .favorite-food h1{
         font-size: 40px;
         border-bottom: 2px dotted rgb(0, 0, 0);
+        line-height: 50px;
     }
 
     .favorite-food-ranking{
-        display: block;
+        justify-content: left;
     }
 
     .favorite-food-ranking a{
         opacity: 1;
     }
+    .favorite-food-ranking p{
+        line-height: 3px;
+        font-size: 8px;
+        padding-top: 10px;
+    }
     .first{
-        padding-top: 30px;
+        display: block;
+        padding-right: 0;
+        text-align: center;
+    }
+    .first a img{
+        width: 100px;
+    }
+    .gold{
+        width:80px;
     }
     .second{
-        padding-left: 35px;
-        padding-top: 70px;
+        display: block;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .second a img{
+        width:80px;
+    }
+    .silver{
+        width:60px;
     }
     
     .third{
-        padding-left:60px;
-        padding-top: 70px;
+        display: block;
+        padding-right: 10px;
+        text-align: center;
     }
-    .snack{
-        text-align: right;
+    .third a img{
+        width:60px;
     }
-    .snack img{
-        width:300px;
+    .copper{
+        width:40px;
     }
 
+
+    .snack{
+        display: none;
+    }
+    .snack2{
+        display: block;
+        text-align: left;
+    }
+    .snack2 img{
+        width:350px;
+    }
 
 
 
@@ -121,6 +162,10 @@
         display: block;
         text-align: center;
     }
+    .house1-text img{
+        width: 190px;
+        border: 0;
+    }
     .iphone-only{
         display: block;
         color: white;
@@ -139,15 +184,19 @@
     .house1-text2{
         padding-left: 0;
     }
+    .house1-text2 h3{
+        font-size: 20px;
+    }
 
     .house1-text3 p{
         text-align: center;
         padding: 20px 10px;
+        font-size: 12px;
     }
     br{
         display: block;
         content:"";
-        height: 20px;
+        height: 10px;
     }
 
     .house2-wrapper{
@@ -164,29 +213,34 @@
         padding-top: 20px;
     }
     .house2-text1 img{
+        width: 190px;
+        border: 0;
         margin-left: 0;
-        margin-top: 20px;
+        padding-top: 20px;
     }
     .house2-text2{
         padding-left:0;
     }
-    .house2-text3 p{
-        text-align: center;
-        padding: 20px 10px;
+    .house2-text2 h3{
+        font-size: 20px;
     }
-    
+    .house2-text3 p{
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+
     .iphone-swich{
         display: block;
         background-color: black;
         width: 100%;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
     }
     .iphone-switchlist{
         display: flex;
         flex-wrap: wrap;
         padding-left: 0;
         border: 3px solid black;
-        margin-top: 5px;
-        margin-bottom: 5px;
     }
     .iphone-switchlist img{
         width:100%;
@@ -197,8 +251,8 @@
         border: 1px solid black;
         list-style: none;
     }
-    
-    
+
+
     footer{
         width: 100%;
     }
