@@ -24,6 +24,9 @@ header{
     float: left;
 }
 
+.iphone-top{
+    display: none;
+}
 
 .swich-wrapper{
     background-color: grey;
@@ -47,7 +50,7 @@ header{
     opacity: 1;
 }
 .profile-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-image: url(/img/prback.jpg);
     background-size: cover;
     height: 100%;
     width: 1440px;
@@ -94,7 +97,7 @@ header{
 }
 
 .favorite-food-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-image: url(/img/prback.jpg);
     background-size: cover;
     height: 100%;
     width: 1440px;
@@ -119,7 +122,7 @@ header{
     font-size: 50px;
     font-family: "rounded-l-mgenplus-1c-black";
     letter-spacing: 6px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 20px;
 }
 
@@ -163,7 +166,7 @@ header{
 }
 
 .house1-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-image: url(/img/prback.jpg);
     background-size: cover;
     height: 100%;
     width: 1440px;
@@ -179,7 +182,6 @@ header{
     border-left: 3px solid white;
     border-right: 3px solid white;
     height: 100%;
-
     border-bottom: 1px dotted white;
     
 }
@@ -199,7 +201,6 @@ header{
 .house1-text img{
     margin-left: 20px;
     border-radius: 10px;
-
     border: 10px solid rgba(227, 219, 219, 0.61);
 }
 .house1-text2{
@@ -212,6 +213,9 @@ header{
     font-size: 30px;
     padding-bottom: 20px;
 }
+.iphone-only{
+    display: none;
+}
 .house1-text2 h3{
     font-size: 25px;
 }
@@ -223,7 +227,7 @@ header{
     
 }
 .house2-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki_profile.github.io/blob/main/prback.jpg?raw=true);
+    background-image: url(/img/prback.jpg);
     background-size: cover;
     height: 100%;
     width: 1440px;
